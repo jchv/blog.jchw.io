@@ -7,7 +7,7 @@ kill_timeout = 5
 processes = []
 
 [build]
-  image = "ghost:5.12.3-alpine"
+  image = "ghost:4.48.4-alpine"
 
 [env]
   url = "https://blog.jchw.io"
@@ -44,5 +44,5 @@ processes = []
     timeout = "2s"
 
 [mounts]
-  source="data"
+  source="blog_jchw_io_data_ghost4"
   destination="/var/lib/ghost/content"
