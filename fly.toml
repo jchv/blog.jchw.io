@@ -7,7 +7,7 @@ kill_timeout = 5
 processes = []
 
 [build]
-  image = "ghost:5.13.0-alpine"
+  image = "ghost:5.12.3-alpine"
 
 [env]
   url = "https://blog.jchw.io"
